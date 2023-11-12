@@ -1,0 +1,16 @@
+1 - Ler duas variaveis A e B
+2 - Trocar o valor entre as duas variaveis
+3 - Apresentar o valores
+
+Programa Troca_Valores
+var 
+	A B, X: inteiro //Tambem poderiam ser do tipo real, cadeia
+inicio
+	leia A,B
+	X <- A
+	A <- B
+	B <- X
+	escreva A, B
+fim
+
+v2: 

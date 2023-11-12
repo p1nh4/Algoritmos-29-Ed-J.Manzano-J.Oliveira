@@ -1,0 +1,15 @@
+1 - Pedir a Base e Indice
+2 - Calcular e armazenar o resultado da raiz
+-> base^(1/indice)
+3 - Imprmir o resultado
+
+Programa CALC_RAIZ
+var 
+	RAIZ: real
+	BASE, INDICE: real
+inicio
+	leia BASE, INDICE
+	RAIZ <- BASE ^ (1/INDICE)
+	escreva RAIZ
+fim 
+

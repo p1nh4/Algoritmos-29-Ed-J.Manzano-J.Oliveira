@@ -1,0 +1,20 @@
+1 - Pedir ao usuario emitir um voto 
+2 - Guardar o respectivo voto na variavel correspondente
+3 - Calcular o percentual de votos validos, brancos e nulos
+de cada candidato, e dos nulos e brancos  
+
+Programa URNA_ELETRONICA
+var
+ 	A, B, C, VOTNUL, VOTBRANC, TOTALVOT: inteiro
+	PERA, PERB, PERC, PERNUL, PERCBRAN, PVAL : real 
+inicio 
+	leia A, B, C, D, VOTNUL, VOTBRANC 
+	TOTALVOT<- A + B + C + VOTNUL + VOTBRANC
+	PVAL <- (A+B+C) * 100 / TE
+	PERA <- A * 100/ TOTALVOT
+	PERB <- B * 100/ TOTALVOT
+	PERC <- C * 100/ TOTALVOT
+	PERNUL <- VOTNUL * 100 / TOTALVOT
+	PERCBRAN<- VOTBRANC * 100 / TOTALVOT
+	escreva TOTALVOT, PERA, PERB, PERC, PVAL, PERNUL, PERCBRAN 
+fim 

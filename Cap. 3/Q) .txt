@@ -1,0 +1,13 @@
+1 - Pedir o valor do raio da circunferencia
+2 - Calcular o valor da area da circunferencia
+3 - Imprimir o resultado
+
+Programa CALCULA_AREA_CIRCUNFERENCIA
+var
+	AREACIRC: real
+	RAIO: real
+inicio
+	leia RAIO
+	AREACIRC<- 3.14159265*(R^2)
+	escreva AREACIRC
+fim

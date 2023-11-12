@@ -1,0 +1,12 @@
+1 - Pedir o valor do raio 
+2 - Calcular o volume 
+3 - Imprimir o resultado 
+
+Programa VOL_RAIO
+var 
+	RAIO, VOL : real
+inicio 
+	leia RAIO
+	VOL<- (4/3)*3.14159*(RAIO^3)
+	escreva VOL
+fim 

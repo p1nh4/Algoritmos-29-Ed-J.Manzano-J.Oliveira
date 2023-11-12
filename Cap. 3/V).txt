@@ -1,0 +1,12 @@
+1 - Pedir a base e o expoente 
+2 - Armazenar o resultado da potencia 
+3 - Imprimir o resultado 
+
+Programa CAL_POTENCIA
+var 
+	BASE, EXP, POT : inteiro
+inicio
+	leia BASE, EXP 
+	POT<- BASE ^ EXP
+	escreva POT
+fim 

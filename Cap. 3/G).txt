@@ -1,0 +1,27 @@
+1 - Ler o valores das variaveis A, B, C, D
+2 - Somar A com B, C e D, multiplicar A com B, C e D
+3 - Repetir o processo para os valores de B, C e D
+4 - Imprimir o resultado. 
+
+Programa Soma_Multiplica_Todos_Valores
+var
+	A,B,C,D,SAB,SAC,SAD,SBC,
+	SBD,SCD,MAB,MAC,MAD,
+	MBC,MBD,MCD : inteiro
+inicio
+	leia A,B,C,D
+	SAB <- A+B
+	SAC <- A+C
+	SAD <- A+D
+	SBC <- B+C
+	SBD <- B+D
+	SCD <- C+D
+	MAB <- A*B
+	MAC <- A*C	
+	MAD <- A*D
+	MBC <- B*C
+	MBD <- B*D
+	MCD <- C*D
+	escreva SAB,SAC,SAD,SBC,SBD,
+	SCD,MAB,MAC,MAD,MBC,MBD,MCD 
+fim

@@ -1,0 +1,14 @@
+1 - Pedir o valor 
+2 - Somar 1 ao valor (sucessor), restar 1 ao valor (diferença) 
+e armazenar os resultados
+3 - Imprimir o resultado
+
+Programa SUCESSOR_ANTECESSOR
+var 
+	VALOR, SUC, ANT: inteiro
+inicio 
+	leia VALOR
+	SUC<- VALOR+1
+	ANT<- VALOR-1
+	escreva SUC, ANT
+fim 

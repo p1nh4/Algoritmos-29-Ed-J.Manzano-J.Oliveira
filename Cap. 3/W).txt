@@ -1,0 +1,12 @@
+1 - Pedir o valor em pés 
+2 - Converter a metros (pes * 0.3048)
+3 - Imprimir o valor 
+
+Programa CONVER_PES_M
+var
+	PES, MET : real
+inicio 
+	leia PES
+	MET <- PES * 0.3048
+	escreva MET
+fim

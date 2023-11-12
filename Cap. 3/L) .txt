@@ -1,0 +1,18 @@
+1 - Pedir a quantidade de reais, e a cotação 
+do REAL-DOLAR
+2 - Converter de reais para dolar 
+3 - Imprimir a conversao 
+
+Programa CONVERTE_REAIS
+var
+	QTDREAIS: real
+	COTACAO: real
+	CONVERSAO: real
+inicio
+	//1R$ = 0,2$
+	leia QTDREAIS, COTACAO
+	CONVERSAO <- QTDREAIS * COTACAO
+	escreva CONVERSAO
+fim
+
+

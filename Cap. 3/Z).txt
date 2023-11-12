@@ -1,0 +1,14 @@
+1 - Pedir dois valores A e B
+2 - Elevar ao quadrado o resultado da divisao de A com B
+3 - Imprimir o resultado armazenado em memoria
+
+Programa CUAD_DIV
+var 
+	A,B : inteiro
+	RES: real
+inicio
+	leia A,B 
+	RES <- (A/B)^2  (ou X<-(A/B) >> escreva X*X)
+	escreva RES
+fim
+

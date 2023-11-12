@@ -1,0 +1,17 @@
+1 - Pedir o valor de quatro variaveis (A,B,C,D)
+2 - Realizar o produto de A com C e armazenar em P
+3 - Realizar a soma de B com D e armazenar em S
+
+Programa SOMA_PRODUTO
+var 
+	A,B,C,D : inteiro
+	P : inteiro
+	S : inteiro
+inicio
+	leia A,B,C,D 
+	P <- A*C
+	S <- B+D
+	escreva P, S
+fim 
+
+ 

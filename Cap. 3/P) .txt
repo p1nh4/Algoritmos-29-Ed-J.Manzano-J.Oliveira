@@ -1,0 +1,14 @@
+1 - Pedir o salario mensal e o valor do reajuste
+2 - Calcular o novo salario e armazenar o resultado
+3 - Imprimir o novo salario 
+
+Programa REAJUSTE_SALARIO
+var 
+	SALARIO: real
+	REAJUSTE: real
+	NOVSALARIO: real
+inicio
+	leia SALARIO, REAJUSTE
+	NOVSALARIO<- ((REAJUSTE/100)*SALARIO)+SALARIO
+	escreva NOVSALARIO
+fim

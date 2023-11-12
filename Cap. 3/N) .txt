@@ -1,0 +1,15 @@
+1 - Pedir para inserir tres valores, A, B e C
+2 - Somar os tres valores
+3 - Elevar ao quadrado a soma
+4 - Imprimir o resultado
+
+Programa CUADRADO_SOMA
+var
+	RESULTADO: real
+	A,B,C : inteiro
+inicio
+	leia A,B,C
+	RESULTADO <- (A+B+C)^2
+	escreva RESULTADO
+fim
+

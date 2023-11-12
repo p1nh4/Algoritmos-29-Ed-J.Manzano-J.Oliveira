@@ -1,0 +1,13 @@
+1 - Pedir a distancia do projetil e o tempo em minutos
+2 - Calcular a velocidade (dist*1000)/(tem*60)
+3 - Apresentar o resultado 
+
+Programa VEL_PROJETIL
+var
+	VEL: real
+	DIST, TEMP_MIN : real
+inicio
+	leia DIST, TEMP_MIN	
+	VEL <- (DIST*1000) / (TEMP_MIN*60)
+	escreva VEL
+fim 

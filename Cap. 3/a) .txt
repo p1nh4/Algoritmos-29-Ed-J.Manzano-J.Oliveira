@@ -1,0 +1,14 @@
+1- Pedir tempetura em Celsius 
+2 - Calcular a conversao a Fahrenheit 
+3 - imprimir o resultado 
+
+
+Programa Converter_Fahrenheit
+var
+	CELSIUS : real
+	FAHRENHEIT : real
+inicio
+	leia CELSIUS
+	FAHRENHEIT <- ( (C*9) / 5) + 32
+	escreva FAHRENHEIT
+fim

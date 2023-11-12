@@ -1,0 +1,11 @@
+1 - Pedir para inserir um valor
+2 - Imprimir esse valor elevado ao cuadrado
+
+Programa Valor_Elevado_Quadrado
+var
+	X : inteiro
+inicio
+	leia X
+	escreva X^2 (ou X*X)
+fim
+

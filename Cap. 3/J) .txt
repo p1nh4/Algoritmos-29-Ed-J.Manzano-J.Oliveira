@@ -1,0 +1,14 @@
+1 - Pedir o valor de A e B
+2 - Fazer a diferença de A com B, e elevar ao quadrado.
+3 - Imprimir o resultado 
+
+Programa Cuadrado_Diferença
+var
+	A,B: inteiro
+	X: real
+inicio 
+	leia A,B
+	X<- (A-B)^2
+	escreva X
+fim 
+

@@ -1,0 +1,15 @@
+1 - Pedir dois valores reais 
+2 - Calcular as 4 operações basicas e armazenar o resultado
+3 - Imprimir os resultados 
+
+Programa OPERACOES_BASICAS
+var 
+	A, B, SOM, DIF, PROD, DIV : reais
+inicio 
+	leia A, B
+	SOM <- A+B
+	DIF <- A-B
+	PROD <- A*B
+	DIV <- A/B
+	escreva SOM, DIF, PROD, DIV
+fim

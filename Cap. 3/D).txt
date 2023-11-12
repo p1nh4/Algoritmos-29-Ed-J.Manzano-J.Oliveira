@@ -1,0 +1,15 @@
+1- Pedir a velocidade media, e o tempo gasto 
+2 - Calcular  a distancia percorrida 
+3 - Calcular a quantidade de litro gastos (12km/L)
+4 - imprimir o velocidade media, tempo gasto, distancia percorrida e combustivel usado.
+
+
+Programa Converter_Celsius
+var
+	VELMEDIA, TEMPGASTO, DISTANCIA_PER, LITROSGASTOS : real
+inicio
+	leia VELMEDIA, TEMPGASTO
+	DISTANCIA_PER <- TEMPGASTO * VELMEDIA
+	LITROSGASTOS <- DISTANCIA_PER / 12
+	escreva VELMEDIA, TEMPGASTO, DISTANCIA_PER, LITROSGASTOS
+fim

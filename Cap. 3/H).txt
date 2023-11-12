@@ -1,0 +1,13 @@
+1 - Ler o valor do COMPRIMENTO, LARGURA, ALTURA
+2 - Calcular o volume 
+3 - Imprimir o valor 
+
+
+Programa Volume_Caixa
+var
+	VOLUME, COMPRIMENTO, LARGURA, ALTURA : real
+inicio
+	leia COMPRIMENTO, LARGURA, ALTURA
+	VOLUME<- COMPRIMENTO*LARGURA*ALTURA
+	escreva VOLUME
+fim

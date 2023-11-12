@@ -1,0 +1,15 @@
+1- Pedir o raio e a altura da lata 
+2 - Calcular o volume
+3 - imprimir o resultado 
+
+
+Programa Converter_Celsius
+var
+	VOLUME : real
+	RAIO : real
+	ALTURA : real
+inicio
+	leia RAIO, ALTURA
+	VOLUME <- 3.14159 * (R^2) * ALTURA
+	escreva VOLUME
+fim

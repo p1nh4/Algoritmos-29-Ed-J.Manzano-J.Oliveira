@@ -1,0 +1,17 @@
+1 - Pedir a cotação do Dolar, e quantos dolares 
+o usuarios tem.
+2 - Converter a quantidade em Reais
+3 - Imprimir o valor em Reais
+
+Programa CONVERSAO_REAIS
+var
+	COTACAODOLAR: real
+	QTDDOLAR: real
+	CONVERSAO: real
+inicio 
+	// 1$ = 4.92$
+	leia COTACAODOLAR, QTDDOLAR
+	CONVERSAO<- COTACAODOLAR * QTDDOLAR
+	escreva CONVERSAO
+fim
+	

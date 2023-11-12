@@ -1,0 +1,12 @@
+1 - Pedir o VALOR, a TAXA e o TEMPO
+2 - Calcular a prestação
+3 - Imprimir na tela o valor da prestação
+
+Programa Calcula_Valor_Prestação
+var 
+	PRESTACAO, VALOR, TAXA, TEMPO : real
+inicio
+	leia VALOR, TAXA, TEMPO
+	PRESTACAO<- VALOR + (VALOR * (TAXA/100)* TEMPO)
+	escreva PRESTACAO
+fim
